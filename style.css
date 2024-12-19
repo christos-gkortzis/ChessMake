@@ -1,0 +1,39 @@
+body{
+    padding-top: 5em;
+}
+#Board{
+    
+    height: 25em;
+    width: 25em;
+   
+    border-style: solid;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: auto;
+    
+    
+}
+
+.Row{
+    
+   
+    flex-grow: 1;
+    display: flex;
+    background-color: hsl(0, 0%, 70%);
+
+}
+
+.Row *{
+    flex-grow: 1;
+    border: solid;
+    border-width: 1px;
+}
+
+#Row-1 :nth-child(2n), #Row-3 :nth-child(2n), #Row-5 :nth-child(2n), #Row-7 :nth-child(2n) {
+    background-color: hsl(0, 0%, 100%);
+}
+
+#Row-2 :nth-child(2n+1), #Row-4 :nth-child(2n+1), #Row-6 :nth-child(2n+1), #Row-8 :nth-child(2n+1) {
+    background-color: hsl(0, 0%, 100%);
+}
