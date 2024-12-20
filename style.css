@@ -1,6 +1,19 @@
 body{
     padding-top: 5em;
 }
+#Options{
+    padding-top: 1em;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#Flip{
+    border-radius: 5px;
+    background-color: rgb(133, 19, 240);
+    
+}
+
 #Board{
     
     height: 25em;
